@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ice_turtle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" android:background="#ff4040"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mirza.coffeeshop.IceTurtle">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:id="@+id/imgv"
+        android:src="@drawable/ice"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Price:
+  $10"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:layout_marginTop="23dp"
+        android:id="@+id/txtprit"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp" />
+
+    <TextView
+        android:text="Ice Turtle Machoatto"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Desc"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_below="@+id/imgv"
+        android:layout_alignEnd="@+id/corde" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/corde"
+        android:text="Order"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        android:layout_below="@+id/txtprit"
+        android:layout_alignEnd="@+id/txtprit"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:text="First drink up for a taste test was the Iced Turtle Macchiato. This drink is advertised as a rich mix of caramel and hazelnut flavors with a swirl of chocolate."
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/Desc"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
